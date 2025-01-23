@@ -149,7 +149,7 @@ export const trino: DialectOptions = {
     ],
     // https://trino.io/docs/current/language/reserved.html
     identTypes: ['""-qq'],
-    identChars: { first: '@#$', rest: '@#$()', allowFirstCharNumber: true },
+    identChars: { first: '#', allowFirstCharNumber: true },
     paramTypes: { positional: true },
     operators: [
       '%',
